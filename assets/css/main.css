@@ -20,22 +20,22 @@
 
 /* Global Colors - The following color variables are used throughout the website. Updating them here will change the color scheme of the entire website */
 :root { 
-  --background-color: #010101; /* Background color for the entire website, including individual sections */
-  --default-color: #fefefe; /* Default color used for the majority of the text content across the entire website */
-  --heading-color: #fefefe; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #00c896; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
-  --surface-color: #F4F4F4; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
-  --contrast-color: #fefefe; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
+  --background-color: #fefefe; /* Background color for the entire website, including individual sections */
+  --default-color: #222; /* Default color used for the majority of the text content across the entire website */
+  --heading-color: #222; /* Color for headings, subheadings and title throughout the website */
+  --accent-color: #FFAE00; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --surface-color: #222; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
+  --contrast-color: #222; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
 
 /* Nav Menu Colors - The following color variables are used specifically for the navigation menu. They are separate from the global colors to allow for more customization options */
 :root {
-  --nav-color: #fefefe;  /* The default color of the main navmenu links */
-  --nav-hover-color: #00c896; /* Applied to main navmenu links when they are hovered over or active */
-  --nav-mobile-background-color: #F4F4F4; /* Used as the background color for mobile navigation menu */
-  --nav-dropdown-background-color: #F4F4F4; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
-  --nav-dropdown-color: #232323; /* Used for navigation links of the dropdown items in the navigation menu. */
-  --nav-dropdown-hover-color: #D8F6D2; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
+  --nav-color: #222;  /* The default color of the main navmenu links */
+  --nav-hover-color: #FFAE00; /* Applied to main navmenu links when they are hovered over or active */
+  --nav-mobile-background-color: #fefefe; /* Used as the background color for mobile navigation menu */
+  --nav-dropdown-background-color: #fefefe; /* Used as the background color for dropdown items that appear when hovering over primary navigation items */
+  --nav-dropdown-color: #222; /* Used for navigation links of the dropdown items in the navigation menu. */
+  --nav-dropdown-hover-color: #fefefe; /* Similar to --nav-hover-color, this color is applied to dropdown navigation links when they are hovered over. */
 }
 
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
@@ -46,7 +46,7 @@
 }
 
 .dark-background {
-  --background-color: #191919; /* footer_personal_bg */
+  --background-color: #504538; /* footer_personal_bg */
   --default-color: #f9f9f9; /* 인터렉션 소개 */
   --heading-color: #fefefe;  /* 이름 */
   --surface-color: #E4E4E4; 
@@ -175,7 +175,7 @@ h6 {
 /* Global Header on Scroll
 ------------------------------*/
 .scrolled .header {
-  --background-color:#191919e8;
+  --background-color:#FDFAF4;
 }
 
 /*--------------------------------------------------------------
@@ -599,7 +599,7 @@ h6 {
 }
 
 .page-title nav {
-  background-color: color-mix(in srgb, #191919, transparent 30%);
+  background-color: color-mix(in srgb, #504538, transparent 20%);
   padding: 20px 0;
 }
 
@@ -614,13 +614,14 @@ h6 {
 
 .page-title nav ol li+li {
   padding-left: 10px;
+  color: #fff;
 }
 
 .page-title nav ol li+li::before {
   content: "/";
   display: inline-block;
   padding-right: 10px;
-  color: color-mix(in srgb, var(--default-color), transparent 70%);
+  color: color-mix(in srgb, #fff, transparent 70%);
 }
 
 /*--------------------------------------------------------------

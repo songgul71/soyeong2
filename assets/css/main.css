@@ -765,6 +765,10 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+#about .container .justify-content-center {
+  align-items: center;
+} 
+
 .about .content h2 {
   font-weight: 700;
   font-size: 24px;
@@ -783,18 +787,21 @@ section,
 
 .about .content ul strong {
   margin-right: 10px;
+  white-space: nowrap;
 }
 
 .about .content ul i {
   font-size: 16px;
-  padding: 10px 0;
+  padding: 20px 0;
   margin-right: 5px;
   color: var(--accent-color);
   line-height: 0;
 }
 
 .about .container .intro {
-  margin: 10px 0 110px;
+  font-style: normal !important;
+  padding: 20px 0 0 !important;
+  margin: 0;
 }
 
 .about .heading .keep_all {

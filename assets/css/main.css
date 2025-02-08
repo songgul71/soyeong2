@@ -473,6 +473,7 @@ h6 {
 
 .footer .social-links a {
   font-size: 16px;
+  padding: 10px 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -480,10 +481,7 @@ h6 {
   color: var(--contrast-color);
   line-height: 1;
   margin: 0 4px;
-  border-radius: 50%;
   text-align: center;
-  width: 36px;
-  height: 36px;
   transition: 0.3s;
 }
 

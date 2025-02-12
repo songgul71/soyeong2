@@ -12,6 +12,8 @@
 --------------------------------------------------------------*/
 /* Fonts */
 :root {
+  --name-font :'name_font','sans-serif';
+  --another-font : 'another_font', 'sans-serif';
   --default-font: 'Pretendard', 'sans-serif';
   /* system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
   --heading-font: 'Pretendard',  'sans-serif';
@@ -79,7 +81,7 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -87,19 +89,14 @@ h5,
 h6 {
   color: var(--heading-color);
   font-family: var(--heading-font);
-}
-
-/* Commom Setting */
-/* .section .heading .container .content {
-  text-align: left;
-  width: 100%;
 } */
 
 .section .heading .container .content .mb-0 {
   color: #ddd;
 }
 
-.content h2  {
+.section .content h2  {
+  letter-spacing: 1px;
   font-weight: 700;
   font-size: 48px;
   letter-spacing: 1px;
@@ -746,17 +743,20 @@ section,
 
 .hero h2 {
   color: #222;
-  margin: 0;
+  margin: 0 0 18px ;
   font-size: 64px;
   font-weight: 700;
-  text-shadow: 0px 3px 5px #58585894;
+  text-shadow: 0px 3px 5px #58585863;
+  font-family: var(--another-font);
 }
 
 .hero p {
   color: #222;
-  margin: 5px 0 0 0;
+  margin: 0;
   font-size: 26px;
-}
+  font-weight: 400;
+  font-family: var(--name-font);
+} 
 
 .hero p span {
   letter-spacing: 1px;
@@ -798,6 +798,9 @@ section,
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
+#about {
+  padding: 20px 0 180px;
+}
 
 #about .container .justify-content-center {
   align-items: center;
@@ -807,18 +810,18 @@ section,
   padding:80px 0 60px;
 }
 
+.about .heading .keep_all {
+  word-break: keep-all;
+}
+
+.about .col_txt h3{
+  padding: 20px 0 18px;
+}
+
 .about .content ul {
   list-style: none;
   padding: 0;
 }
-
-.about .col_txt h3{
- padding: 20px 0 18px;
-}
-
-/* .about .col_txt_wrap{
-  display: flex; 
-} */
 
 .about .content ul li {
   margin-bottom: 20px;
@@ -826,27 +829,14 @@ section,
   align-items: center;
 }
 
-.about .content ul strong {
-  margin-right: 12px;
-  white-space: nowrap;
-}
-
-.about .content ul i {
-  font-size: 16px;
-  padding: 20px 0;
-  margin-right: 5px;
-  color: var(--accent-color);
-  line-height: 0;
+.about .content ul li .alpa {
+  color: #888;
 }
 
 .about .container .intro {
   font-style: normal !important;
   padding: 20px 0 0 !important;
   margin: 0;
-}
-
-.about .heading .keep_all {
-  word-break: keep-all;
 }
 
 /*--------------------------------------------------------------

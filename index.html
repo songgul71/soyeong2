@@ -4,20 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>고소영 포트폴리오</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>고소영 | UIUX 퍼블리싱</title>
 
   <!-- Favicons -->
   <link rel="shortcut icon" href="assets/image/favicon.png" type="image/x-icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Fonts -->
-  <!-- <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet"> -->
 
   <link rel="stylesheet" href="assets/css/font.css">
 
@@ -32,55 +23,56 @@
   <link href="assets/css/main.css" rel="stylesheet">
 
   <!-- =======================================================
-  * Template Name: Personal
-  * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
+  * Template Name : Personal
+  * Template URL : https ://bootstrapmade.com/personal-free-resume-bootstrap-template/
+  * Updated : Aug 07 2024 with Bootstrap v5.3.3
+  * Author : BootstrapMade.com
+  * License : https ://bootstrapmade.com/license/
   ======================================================== -->
 </head>
 
 <body class="index-page">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+  <!-- <div class="pop_up">
+    <dl>
+      <dt>알림 아이콘</dt>
+      <dd>
+        아직 오픈되지 않은 실무 프로젝트들은
+        <br>
+        공개하기 조심스러워 첨부하지 않았습니다.
+      </dd>
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Portfolio</h1>
-      </a>
-    </div>
+      <dd class="muted">오픈되면 업로드 하겠습니다. 감사합니다.</dd>
+      <dd class="bi bi-x close" aria-label="닫기"></dd>
+    </dl>
+  </div> -->
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
 
     <nav id="navmenu" class="navmenu">
       <ul>
-        <!-- <li><a href="#hero">Home</a></li> -->
+        <li><a href="#hero">Hero</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#skills">Skills</a></li>
         <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
       </ul>
       <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
     </nav>
-
+    </div>
   </header>
 
-  <main class="main">
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
+  <main class=" main">
 
-      <div class="main_img">
-        <img src="assets/image/main_bg.png" alt="BX 작업물 명함 목업" data-aos="fade-in">
-      </div>
+    <section id="hero">
 
-      <div class="container" data-aos="zoom-out" data-aos-delay="200">
-        <!-- <P>안녕하세요! 지원자 고소영입니다  </P> -->
-        <h2 class="another_font">GO SOYEONG</h2>
-        <p class="another_font">안녕하세요! 저는 <span class="typed"
-            data-typed-items="지원자 고소영입니다😁, 함께 성장하고 싶습니다. ,디블리셔입니다.">지원자 고소영입니다😁</span><span
-            class="typed-cursor typed-cursor--blink"></span></p>
-      </div>
-    </section><!-- /Hero Section -->
+      <h2 class="pg_tit">
+        <strong id="first-line"></strong>
+        <strong id="second-line"></strong>
+        <span class="typing-cursor" id="cursor">&nbsp;</span>
+      </h2>
+
+    </section>
 
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio section">
@@ -89,12 +81,10 @@
       <div class="page-title" data-aos="fade-up" data-aos-delay="100">
         <div class="heading">
           <div class="container">
-            <div class="row d-flex justify-content-center text-center">
-              <div class="col-lg-8 content">
+            <div class="row d-flex">
+              <div class="content text-center">
                 <h2>PORTFOLIO</h2>
                 <p class="mb-0">마우스 호버시 나타나는 아이콘을 통해 미리보기 및 해당 작품 페이지로 이동이 가능합니다.
-                  <!--  전반적인 저의 디자인 및 퍼블리싱 능력을 보여드릴 수 있는
-                <br>웹 & 앱 & 콘텐츠 포트폴리오입니다. -->
                 </p>
               </div>
             </div>
@@ -106,57 +96,56 @@
 
         <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
-          <ul class="portfolio-filters isotope-filters tab_menu" data-aos="zoom-in-up" data-aos-duration="500"
+          <ul class="portfolio-filters isotope-filters text-center" data-aos="zoom-in-up" data-aos-duration="500"
             data-aos-delay="200" data-aos-easing="linear">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-product">Web</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-books">Team</li>
-            <li data-filter=".filter-branding">Design</li>
+            <li data-filter="*" class="filter-active tab_menu">All</li>
+            <li data-filter=".filter-app" class="tab_menu">Real Work</li>
+            <li data-filter=".filter-product" class="tab_menu">Web/APP</li>
+            <li data-filter=".filter-books" class="tab_menu">Team</li>
+            <li data-filter=".filter-branding" class="tab_menu">Design</li>
           </ul><!-- End Portfolio Filters -->
 
           <div class="row gy-4 isotope-container" data-aos="zoom-in-down" data-aos-delay="300" data-aos-duration="600"
             data-aos-easing="linear">
 
-            <!-- 앱 -->
+            <!-- 실무 -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
               <div class="portfolio-content h-100">
-                <img src="assets/image/app_01.jpg" class="img-fluid" alt="뉴스 앱 제작 인트로">
+                <img src="assets/image/work_01.jpg" class="img-fluid" alt="Aureon Partners | 채권 투자 사이트">
+
                 <div class="portfolio-info">
-                  <h4>(개인) 앱 기획</h4>
-                  <p>뉴스 앱 기획 및 디자인 <br> Figma, Ps, Ai<br> 기여도 : 100% </p>
-                  <a href="assets/image/app_01-1.jpg" title="앱 디자인 및 기획: 뉴스 어플에서 간편하게 스크랩, 나만의 견해 작성하기"
+                  <h4>(실무) 채권 투자 사이트 신규 구축</h4>
+                  <p>화면 디자인 및 퍼블리싱 | 유저페이지, 어드민<br>
+                    <span>Html5, Css3, Java, Figma, Ps, Ai</span>
+                    <br>
+                    <span class="date">2025.02.27~2025.03.17</span>
+                    <span>(기여도 : 95%)</span>
+                  </p>
+
+                  <a href="assets/image/work_01.jpg" title="(주)DBS - Aureon Partners 채권 투자 사이트 신규 구축"
                     data-gallery="portfolio-gallery-app" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
-                  <a target="_blank"
-                    href="https://www.figma.com/design/ixoud9vbNYDIO31RVCNwSx/NEWSCRAP)%3A%EC%84%9C%EB%B9%84%EC%8A%A4%EC%95%B1%EB%94%94%EC%9E%90%EC%9D%B8?node-id=6-20&t=qFNejNyCWy2tYuio-1"
-                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <a target="_blank" title="More Details" class="details-link" href="https://aureonkr.com/index.html"><i
+                      class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app filter-books">
-              <div class="portfolio-content h-100">
-                <img src="assets/image/app_02.jpg" class="img-fluid" alt="시니어 앱 화면 목업">
-                <div class="portfolio-info">
-                  <h4>(팀) 시니어 서비스 앱 제작</h4>
-                  <p>(주)SCT 노인 돌봄 공백 서비스 앱 디자인 화면 구현<br>Figma, Ai Html, Css, Js ,React <br> 기여도 : 30% </p>
-                  <a href="assets/image/app_02.jpg" title="SCT기업 노인돌봄공백 서비스앱 화면 디자인"
-                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <a target="_blank" href="https://songgul71.github.io/team_01/login.html" title="More Details"
-                    class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
-
-            <!-- 웹  -->
+            <!-- 웹/앱  -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
                 <img src="assets/image/web_01.jpg" class="img-fluid" alt="할리스 반응형 리뉴얼 사이트 목업">
+
                 <div class="portfolio-info">
                   <h4>(개인) 반응형 웹 리뉴얼</h4>
-                  <p>할리스 반응형 리뉴얼 <br>Figma, Html, Css, Js, Ps, Ai<br> 기여도 : 100% </p>
+
+                  <p>할리스 반응형 리뉴얼 | 메인페이지 <br>
+                    <span>Figma, Html5, JQ, Css3, Js, Ps, Ai</span>
+                    <br>
+                    <span class="date">2024.10~2024.11</span>
+                    <span>(기여도 : 100%)</span>
+                  </p>
+
                   <a href="assets/image/web_01.jpg" title=" 할리스 리뉴얼 사이트 목업" data-gallery="portfolio-gallery-product"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a target="_blank" href="https://songgul71.github.io/portfolio_01/" title="More Details"
@@ -168,9 +157,18 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
                 <img src="assets/image/web_02.jpg" class="img-fluid" alt="Art114 반응형 리뉴얼 사이트 목업">
+
                 <div class="portfolio-info">
+
                   <h4>(개인) 반응형 웹 리뉴얼</h4>
-                  <p> ART114 반응형 리뉴얼 <br>Bootstrap, Figma, Ai, Html, Css, Js<br> 기여도 : 100%</p>
+
+                  <p>ART114 반응형 리뉴얼 | 메인페이지 + sub 3페이지 <br>
+                    <span>Bootstrap, Figma, Ai, Html5, Css3, JQ</span>
+                    <br>
+                    <span class="date">2024.06~2024.07</span>
+                    <span>(기여도 : 100%) </span>
+                  </p>
+
                   <a href="assets/image/web_02.jpg" title="Bootstrap / Atr114 반응형 리뉴얼 사이트 목업"
                     data-gallery="portfolio-gallery-product" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
@@ -183,10 +181,19 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
               <div class="portfolio-content h-100">
                 <img src="assets/image/web_03.jpg" class="img-fluid" alt="GS건설 리뉴얼 사이트 목업">
+
                 <div class="portfolio-info">
+
                   <h4>(개인) 반응형 웹 리뉴얼</h4>
-                  <p>GS건설 반응형 리뉴얼 <br> Figma, Html, Css, Js, Premiere Pro <br> 기여도 : 100%</p>
-                  <a href="assets/image/web_03.jpg" title="개인: GS건설 홈페이지 리뉴얼" data-gallery="portfolio-gallery-book"
+
+                  <p>GS건설 반응형 리뉴얼 | 메인페이지<br>
+                    <span>Figma, Html5, Css3, Js, Premiere Pro</span>
+                    <br>
+                    <span class="date">2025.01.30~2025.02.02</span>
+                    <span>(기여도 : 100%)</span>
+                  </p>
+
+                  <a href="assets/image/web_03.jpg" title="개인 : GS건설 홈페이지 리뉴얼" data-gallery="portfolio-gallery-book"
                     class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
                   <a target="_blank" href="https://songgul71.github.io/portfolio_03/" title="More Details"
                     class="details-link"><i class="bi bi-link-45deg"></i></a>
@@ -197,10 +204,18 @@
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books filter-product">
               <div class="portfolio-content h-100">
                 <img src="assets/image/team_01.jpg" class="img-fluid" alt="업무툴 신규 구축 인트로">
+
                 <div class="portfolio-info">
                   <h4>(팀) 그룹웨어 웹 신규 구축</h4>
-                  <p>(주)테렌즈 내부 업무툴 신규 구축 및 랜딩페이지 <br> Figma, Ai, Html, Css, Js<br>기여도 : 30% </p>
-                  <a href="assets/image/team_01.jpg" title="팀프로젝트: 테렌즈 기업 내부 업무툴 신규 구축"
+
+                  <p>(주)테렌즈 내부 업무툴 신규 구축 및 랜딩페이지<br>
+                    <span>Figma, Ai, Html5, Css3, Js</span>
+                    <br>
+                    <span class="date">2024.07 ~ 2024.08</span>
+                    <span>(기여도 : 30%, 5명)</span>
+                  </p>
+
+                  <a href="assets/image/team_01.jpg" title="팀프로젝트 : 테렌즈 기업 내부 업무툴 신규 구축"
                     data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
                       class="bi bi-zoom-in"></i></a>
                   <a target="_blank"
@@ -210,48 +225,49 @@
               </div>
             </div><!-- End Portfolio Item -->
 
-            <!-- 디자인 -->
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product filter-books">
               <div class="portfolio-content h-100">
-                <img src="assets/image/BX_01.png" class="img-fluid" alt="BX리뉴얼 인트로">
+                <img src="assets/image/app_02.jpg" class="img-fluid" alt="시니어 앱 화면 목업">
+
                 <div class="portfolio-info">
-                  <h4>(개인) BX 디자인</h4>
-                  <p>스킨푸드 세컨 브랜드 <br>Figma, Ps, Ai<br> 기여도 : 100% </p>
-                  <a href="assets/image/bx_thum_01.jpg" title="스킨푸드 로고 리디자인" data-gallery="portfolio-gallery-book"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a target="_blank" href="assets/image/SKINFOOD_BX_Redesign.pdf" title="More Details"
+                  <h4>(팀) 시니어 서비스 앱 제작</h4>
+
+                  <p>(주)SCT 노인 돌봄 공백 서비스 앱 디자인 화면 구현
+                    <br> | 태블릿&모바일<br>
+                    <span>Figma, Ai Html5, Css3, Js ,React</span>
+                    <br>
+                    <span class="date">2024.08 ~ 2024.09</span>
+                    <span>(기여도 : 30%, 5명)</span>
+                  </p>
+
+                  <a href="assets/image/app_02.jpg" title="SCT기업 노인돌봄공백 서비스앱 신규 구축 화면 목업"
+                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
+                      class="bi bi-zoom-in"></i></a>
+                  <a target="_blank" href="https://songgul71.github.io/team_01/login.html" title="More Details"
                     class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
 
+            <!-- 디자인 -->
             <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
               <div class="portfolio-content h-100">
-                <img src="assets/image/detail_thum_02.jpg" class="img-fluid" alt="상세페이지 인트로">
-                <div class="portfolio-info">
-                  <h4>(개인) 상세페이지 제작</h4>
-                  <p>와인 상세페이지 <br>Ps, Ai, Figma<br> 기여도 : 100%</p>
-                  <a href="assets/image/detail_page_02.jpg" title="와인 상세페이지 디자인" data-gallery="portfolio-gallery-book"
-                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
-                  <a target="_blank"
-                    href="https://ksy971.cafe24.com/skin-skin3/product/%EC%8B%9C%EC%A6%8C%EC%83%81%ED%92%88-%EC%82%B0%ED%83%80%EC%95%84%EB%8B%88%ED%83%80-%EA%B8%80%EB%A3%A8%EB%B0%94%EC%9D%B8/11/category/50/display/1/"
-                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div><!-- End Portfolio Item -->
+                <img src="assets/image/BX_01.png" class="img-fluid" alt="BX리뉴얼 인트로">
 
-            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
-              <div class="portfolio-content h-100">
-                <img src="assets/image/detail_thum_01.jpg" class="img-fluid" alt="상세페이지 인트로">
                 <div class="portfolio-info">
-                  <h4>(개인) 상세페이지 제작</h4>
-                  <p>DIY 캔들 상세페이지 <br> Ps, Ai, Figma <br> 기여도 : 100%</p>
-                  <a href="assets/image/detail_page_01.jpg" title="DIY 드라이플라워 캔들 여성타킷 상세페이지 디자인"
-                    data-gallery="portfolio-gallery-book" class="glightbox preview-link"><i
-                      class="bi bi-zoom-in"></i></a>
-                  <a target="_blank"
-                    href="https://ksy971.cafe24.com/skin-skin3/product/diy-%EB%B6%80%EC%BC%80%EC%BA%94%EB%93%A4-%EB%93%9C%EB%9D%BC%EC%9D%B4%ED%94%8C%EB%9D%BC%EC%9B%8C%EC%BA%94%EB%93%A4/10/category/1/display/2/"
-                    title="More Details" class="details-link"><i class="bi bi-link-45deg"></i></a>
+                  <h4>(개인) BX리디자인</h4>
+
+                  <p>스킨푸드 리브랜딩<br>
+                    <span>Figma, Ps, Ai</span>
+                    <br>
+                    <span class="date">2024.06~2024.07</span>
+                    <span>(기여도 : 100%)</span>
+                  </p>
+
+                  <a href="assets/image/BX_01.png" title="스킨푸드 로고 리디자인" data-gallery="portfolio-gallery-book"
+                    class="glightbox preview-link"><i class="bi bi-zoom-in"></i></a>
+                  <a target="_blank" href="assets/image/SKINFOOD_BX_Redesign.pdf" title="More Details"
+                    class="details-link"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div><!-- End Portfolio Item -->
@@ -264,39 +280,100 @@
 
     </section><!-- /Portfolio Section -->
 
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 about_info">
+          <div class="col-lg-4 profile_img">
+            <img src="assets/image/profile_img.jpg" class="img-fluid" alt="고소영 증명사진, 반갑습니다!">
+          </div>
+          <div class="col-lg-8 content">
+            <div class="info_list">
+
+              <div class="info_item">
+                <h5>안녕하세요, 고소영입니다!</h5>
+
+                <ul>
+                  <li class="list_item">
+                    <span>고소영</span>
+                  </li>
+                  <li class="list_item">
+                    <span>27세 (99년생)</span>
+                  </li>
+                  <li class="list_item">
+                    <span>gin06077@naver.com</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="info_item">
+
+                <h5>이력</h5>
+
+                <ul>
+                  <li class="list_item">
+                    <span>경성대학교 패션디자인학과</span>
+                    <span class="muted">2018.03 -2023.08</span>
+                  </li>
+
+                  <li class="list_item">
+                    <span>경성대학교 패션디자인학과</span>
+                    <span>부산IT교육센터 반응형웹앱 과정 수료</span>
+                    <span class="muted">2024.03 -2023.10</span>
+                  </li>
+
+                  <li class="list_item">
+                    <span>클로버마케팅 | 웹디자인팀</span>
+                    <span class="muted">2025.02 ~ 재직 중</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+
+            <div class="btn_area">
+              <a href="./assets/image/gosoyeong_resume.pdf" download="고소영이력서.pdf" class="btn_download">
+                <button type="button">
+                  <span class="bi bi-filetype-pdf icon_file" role="icon" aria-label="pdf파일"></span>
+                  이력서 다운로드
+                </button>
+              </a>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
     <!-- Skills Section -->
     <section id="skills" class="skills section">
 
       <!-- Section Title -->
-      <!-- <div class="container section-title" data-aos="fade-up">
+      <div class="container section-title" data-aos="fade-up">
         <h2>Skills</h2>
-        <div class="content">
-          <span class="description-title">Skills</span>
-        </div>
-      </div> -->
-      <!-- End Section Title -->
+      </div><!-- End Section Title -->
 
-      <!-- Page Title -->
-      <div class="page-title" data-aos="fade-right" data-aos-delay="120">
-        <div class="heading">
-          <div class="container">
-            <div class="row d-flex justify-content-center text-center">
-              <div class="col-lg-8 content">
-                <h2>SKILLS</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div><!-- End Page Title -->
-
-      <div class="container" data-aos="fade-left" data-aos-delay="100">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row skills-content skills-animation">
 
           <div class="col-lg-6">
 
             <div class="progress">
-              <span class="skill"><span>Figma</span> <i class="val">95%</i></span>
+              <span class="skill"><span>HTML</span> <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -304,7 +381,27 @@
             </div><!-- End Skills Item -->
 
             <div class="progress">
-              <span class="skill"><span>Illustrator</span> <i class="val">95%</i></span>
+              <span class="skill"><span>JavaScript</span> <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill"><span>Figma</span> <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div><!-- End Skills Item -->
+
+            <div class="progress">
+              <span class="skill"><span>Illustrator</span> <i class="val">90%</i></span>
               <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
                 </div>
@@ -314,35 +411,7 @@
             <div class="progress">
               <span class="skill"><span>Photoshop</span> <i class="val">85%</i></span>
               <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-          </div>
-
-          <div class="col-lg-6">
-
-            <div class="progress">
-              <span class="skill"><span>HTML</span> <i class="val">95%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>CSS</span> <i class="val">90%</i></span>
-              <div class="progress-bar-wrap">
                 <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div><!-- End Skills Item -->
-
-            <div class="progress">
-              <span class="skill"><span>JQUERY(JS)</span> <i class="val">85%</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
                 </div>
               </div>
             </div><!-- End Skills Item -->
@@ -355,114 +424,43 @@
 
     </section><!-- /Skills Section -->
 
-    <!-- About Section -->
-    <section id="about" class="about section">
-
-      <!-- Page Title -->
-      <div class="page-title">
-        <div class="heading" data-aos="fade-left" data-aos-duration="500">
-          <div class="container">
-            <div class="row d-flex justify-content-center text-center">
-              <div class="col-lg-8 content">
-                <h2>ABOUT</h2>
-                <!-- <p class="mb-0 keep_all">
-
-                </p> -->
-              </div>
-
-            </div>
-          </div>
-        </div>
-      </div><!-- End Page Title -->
-
-      <div class="container" data-aos="zoom-in" data-aos-duration="600">
-        <div class="row gy-4 justify-content-center">
-          <div class="col-lg-4">
-            <img src="assets/image/profile_img.jpg" class="img-fluid" alt="">
-          </div>
-
-          <div class="col-lg-8 content col_txt">
-            <div class="row">
-
-              <div class="col-lg-6">
-                <h3> 이력 </h3>
-                <ul>
-                  <li>
-                    <p><span>2024.03~2024.10</span><br> 부산IT교육센터 직업 훈련 수료 <br>
-                      <span class="alpa"> 스마트 웹 기반 콘텐츠 기획과 UXUI 디자인 웹 & 앱 제작</span>
-                    </p>
-                  </li>
-
-                  <li>
-                    <p><span>2018.03~2023.08</span> <br> 경성대학교 재학</p>
-                  </li>
-                  <li>
-                    <p><span>2015.03~2018.02</span> <br> 세명고등학교 재학</p>
-                  </li>
-                </ul>
-              </div>
-
-              <div class="col-lg-6">
-                <h3> 팀프로젝트 </h3>
-                <ul>
-
-                  <li>
-                    <p><span>2024.08~2024.09</span> <br>(주)SCT 노인 돌봄 공백 서비스 앱 화면 디자인</p>
-                  </li>
-
-                  <li>
-                    <p><span>2024.07~2024.08</span> <br>(주)테렌즈 사내 그룹웨어 웹 신규 구축</p>
-                  </li>
-                  <!-- 
-                  <li>
-                    <p><span>2022.09~2022.12</span> <br> <span class="company">경성대학교 소강당 '</span> </p>
-
-                  </li>
-                  <li>
-                    <p><span>2022.07~2022.08</span><br> <span class="company">부산 가치 전시회 - 의류 업싸이클링</span></p>
-                  </li> -->
-                </ul>
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-
-    </section><!-- /About Section -->
-
   </main>
 
   <footer id="footer" class="footer dark-background">
-    <div class="container">
+    <div class="container f_flex">
       <h3 class="sitename">PORTFOLIO</h3>
-      <p>본 사이트는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었으며, 사용된 일부 이미지 및 폰트는 별도의 출처가 있음을 밝힙니다.</p>
+      <p class="notion">
+        <span>본 사이트는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었으며, 사용된 일부 이미지 및 폰트는 별도의 출처가 있음을 밝힙니다.</span>
+        <span>본 사이트는 지원자 본인 혼자 진행한 사실이 틀림없음을 밝힙니다.</span>
+        <span>본 사이트는 제작자의 동의 없이 상업적 이용이 불가합니다.</span>
+      </p>
       <!-- <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-facebook"></i></a>
         <a href=""><i class="bi bi-instagram"></i></a>
         <a href=""><i class="bi bi-skype"></i></a>
         <a href=""><i class="bi bi-linkedin"></i></a>
       </div> -->
-      <!-- <a href="https://ksy971.cafe24.com/skin-skin3">Cafe24</a> -->
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright</span> <strong class="px-1 sitename">Portfolio</strong>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a target="_blank" class="boot" href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+      <!-- <a href="https ://ksy971.cafe24.com/skin-skin3">Cafe24</a> -->
+    </div>
+    <div class="container">
+      <div class="copyright">
+        <span>Copyright</span> <strong class="px-1 sitename">Portfolio</strong>
+      </div>
+
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information : https ://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form : [buy-url] -->
+        Designed by <a target="_blank" class="boot" href="https ://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
   </footer>
 
   <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
 
   <!-- Preloader -->
   <div id="preloader"></div>
@@ -481,6 +479,70 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    class TypingEffect {
+      constructor() {
+        this.firstLine = "Soyeong's";
+        this.secondLine = "Portfolio";
+        this.firstElement = document.getElementById('first-line');
+        this.secondElement = document.getElementById('second-line');
+        this.cursor = document.getElementById('cursor');
+        this.typingSpeed = 180; // 타이핑 속도 (밀리초)
+        this.pauseTime = 2000; // 완성 후 대기 시간
+        this.eraseSpeed = 100; // 지우는 속도
+
+        this.startTyping();
+      }
+
+      async startTyping() {
+        while (true) {
+          // 첫 번째 줄 타이핑
+          await this.typeText(this.firstElement, this.firstLine);
+
+          // 두 번째 줄 타이핑
+          await this.typeText(this.secondElement, this.secondLine);
+
+          // 완성 후 잠시 대기
+          await this.sleep(this.pauseTime);
+
+          // 두 번째 줄부터 지우기
+          await this.eraseText(this.secondElement);
+
+          // 첫 번째 줄 지우기
+          await this.eraseText(this.firstElement);
+
+          // 다시 시작하기 전 잠시 대기
+          await this.sleep(500);
+        }
+      }
+
+      async typeText(element, text) {
+        for (let i = 0; i <= text.length; i++) {
+          element.textContent = text.substring(0, i);
+          await this.sleep(this.typingSpeed);
+        }
+      }
+
+      async eraseText(element) {
+        const text = element.textContent;
+        for (let i = text.length; i >= 0; i--) {
+          element.textContent = text.substring(0, i);
+          await this.sleep(this.eraseSpeed);
+        }
+      }
+
+      sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+      }
+    }
+
+    // 페이지 로드 후 타이핑 효과 시작
+    document.addEventListener('DOMContentLoaded', () => {
+      new TypingEffect();
+    });
+  </script>
+
 
 </body>
 

@@ -689,7 +689,7 @@ section,
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  height: 90vh; padding: 100px 0 100px; position: relative;
+  height: 60vh; padding: 130px 0 100px; position: relative;
   .pg_tit { 
     text-align: center; font-size: 10rem; font-family: var(--design-font); letter-spacing: 0.03em;
     strong {
